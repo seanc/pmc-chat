@@ -7,10 +7,6 @@
     "default_icon": "icon.png",
     "default_popup": "pages/popup.html"
   },
-  "background": {
-    "scripts": ["lib/background.js"],
-    "persistent": true
-  },
   "content_scripts": [
     {
       "matches": ["*://*.planetminecraft.com/chat", "*://*.planetminecraft.com/chat/", "*://*.planetminecraft.com/chat/*"],
