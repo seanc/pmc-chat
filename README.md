@@ -1,15 +1,14 @@
 # pmc-chat
 > PMC Chat Styler
 
+This was made purely for fun and I was bored. I was talking with DeathGameDev about how he could implement live styles, so I decided to implement it myself.
+
 ## Installation
 ```shell
-$ npm install pmc-chat
+$ git clone
 ```
 
-## Usage
-```javascript
-import pmc-chat from 'pmc-chat';
-```
+Load as unpacked extension.
 
 ## Credits
 | ![seanc][avatar] |
