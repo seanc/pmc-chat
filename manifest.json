@@ -1,6 +1,6 @@
 {
   "name": "PMC Chat Ehancements",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "Personalize your PMC chat with live editing styles.",
   "browser_action": {
