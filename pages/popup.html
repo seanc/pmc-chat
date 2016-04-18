@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>pmc-chat</title>
+  <link rel="stylesheet" href="/bower_components/milligram/dist/milligram.min.css">
+  <style>
+    body {
+      width: 20em;
+    }
+    .button-block {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <label for="textColor">Text Color</label>
+      <input type="text" id="textColor">
+
+      <label for="inputBoxColor">Input Box Color</label>
+      <input type="text" id="inputBoxColor">
+
+      <label for="backgroundColor">Background Color</label>
+      <input type="text" id="backgroundColor">
+
+      <label for="modernMessageBackground">Message Background</label>
+      <input type="text" id="modernMessageBackground">
+
+      <label for="modernOwnMessageBackground">Own Message Background</label>
+      <input type="text" id="modernOwnMessageBackground">
+
+      <input type="submit" class="button button-block" value="Save">
+    </fieldset>
+  </form>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/jStorage/jstorage.min.js"></script>
+  <script src="/lib/settings.js"></script>
+  <script src="/lib/index.js"></script>
+</body>
+</html>

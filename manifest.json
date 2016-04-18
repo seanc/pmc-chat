@@ -1,0 +1,40 @@
+{
+  "name": "PMC Chat Ehancements",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Personalize your PMC chat with live editing styles.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "pages/popup.html"
+  },
+  "background": {
+    "scripts": ["lib/background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.planetminecraft.com/chat", "*://*.planetminecraft.com/chat/", "*://*.planetminecraft.com/chat/*"],
+      "js": ["bower_components/jquery/dist/jquery.min.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.planetminecraft.com/chat", "*://*.planetminecraft.com/chat/", "*://*.planetminecraft.com/chat/*"],
+      "js": ["bower_components/jStorage/jstorage.min.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.planetminecraft.com/chat", "*://*.planetminecraft.com/chat/", "*://*.planetminecraft.com/chat/*"],
+      "js": ["lib/page.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "*://*.planetminecraft.com/chat",
+    "activeTab",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon.png"
+  }
+}
