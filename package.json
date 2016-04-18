@@ -1,7 +1,7 @@
 {
   "name": "pmc-chat",
   "author": "Sean Wilson",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PMC Chat Styler",
   "main": "lib",
   "repository": {
